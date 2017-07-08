@@ -1,4 +1,4 @@
-package rozdzial2_instrukcje_jêzyka;
+package rozdzial2_instrukcje_jezyka;
 
 public class Listing2_11 {
 		public static void main(String args[]) {
