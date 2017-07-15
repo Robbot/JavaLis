@@ -1,9 +1,15 @@
-package rozdzial2_instrukcje_jezyka�zyka;
+package rozdzial2_instrukcje_jezyka;
 
+import java.util.*;
 public class Listing2_18 {
 		public static void main (String args[]) {
-		//deklaracja zmiennych
-		int A = 1, B = 1, C = -2;
+			Scanner input = new Scanner(System.in);
+			System.out.println("Podaj wartość przy x2");
+			int A = input.nextInt();
+			System.out.println("Podaj wartość przy x");
+			int B = input.nextInt();
+			System.out.println("Podaj wartość bez x");
+			int C = input.nextInt();
 		//wyświetlenie parametrów równania
 		System.out.println ("Parametry równania:\n");
 		System.out.println ("A: " + A + " B: " + B + " C: " + C + "\n");
